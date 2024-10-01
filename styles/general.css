@@ -42,9 +42,22 @@ span {
   font-family: "Roboto", sans-serif;
 }
 
+label {
+  font-family: "Roboto", sans-serif;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
+}
+
 button {
   outline: none;
   border: none;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
+}
+
+input {
+  border: 0;
+  outline: none;
 }
