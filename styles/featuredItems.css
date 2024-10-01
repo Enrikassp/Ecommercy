@@ -1,0 +1,110 @@
+body {
+  main {
+    section#featuredProducts {
+      padding: 80px 0;
+
+      .widthContainer {
+        .header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding-bottom: 80px;
+          gap: 20px;
+          flex-wrap: wrap;
+
+          h1 {
+            font-size: 25px;
+          }
+
+          button {
+            font-size: 14px;
+            padding: 13px 15px;
+            background-color: var(--dominance-color);
+            color: #fff;
+            border-radius: 5px;
+            transition: all 0.2s ease-in-out;
+
+            i {
+              padding-left: 10px;
+            }
+          }
+
+          button:hover {
+            background-color: var(--dominance2-color);
+          }
+        }
+
+        .itemList {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 100px;
+          .item {
+            width: 280px;
+
+            .imageContainer {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              height: 230px;
+              width: 100%;
+              background-color: #f7f7f7;
+              border-top-left-radius: 20px;
+              border-top-right-radius: 20px;
+              padding: 20px;
+              margin-bottom: 10px;
+
+              img {
+                width: 150px;
+              }
+            }
+
+            article {
+              position: relative;
+              margin-top: 20px;
+
+              span {
+                color: #92949d;
+                font-size: 14.5px;
+
+                i {
+                  margin-right: 5px;
+                  color: #e99019;
+                  font-size: 20px;
+                }
+              }
+
+              h1 {
+                color: #3d3e41;
+                font-weight: normal;
+                margin: 5px 0;
+              }
+
+              h3 {
+                color: #3d3e41;
+                font-weight: 600;
+                font-size: 17px;
+              }
+
+              button {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 50px;
+                height: 50px;
+                font-size: 17px;
+                border-radius: 100%;
+                background-color: var(--dominance-color);
+                transition: all 0.2s ease-in-out;
+                color: #fff;
+              }
+
+              button:hover {
+                background-color: var(--dominance2-color);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

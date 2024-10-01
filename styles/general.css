@@ -1,0 +1,50 @@
+:root {
+  --light-gray: #a2a7ad;
+  --medium-gray: #3d3d3d;
+  --dark-gray: #2c2e33;
+  --dominance-color: #3074f0;
+  --dominance2-color: #164bad;
+}
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.widthContainer {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 90px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+span {
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
