@@ -38,7 +38,7 @@ body {
           p {
             color: var(--medium-gray);
             font-size: 17px;
-            font-weight: lighter;
+            font-weight: normal;
           }
 
           button {

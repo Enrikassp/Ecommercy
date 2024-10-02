@@ -1,0 +1,65 @@
+body {
+  nav {
+    position: relative;
+    .widthContainer {
+      position: relative;
+
+      .miniBasket {
+        right: 130px;
+        top: 40px;
+        position: absolute;
+        background-color: #fff;
+        padding: 20px;
+        width: 400px;
+        max-height: 600px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+
+        h1 {
+          font-size: 17px;
+          place-self: left;
+        }
+
+        .basketList {
+          max-height: 300px;
+          width: 100%;
+          overflow-y: auto;
+        }
+
+        .buttonContainer {
+          padding-top: 10px;
+          align-self: self-end;
+          width: 100%;
+
+          a {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            font-size: 15px;
+            transition: all 0.2s ease-in-out;
+            color: black;
+          }
+
+          .basketBtn {
+            background-color: var(--dominance-color);
+            color: #fff;
+          }
+
+          .basketBtn:hover {
+            background-color: var(--dominance2-color);
+          }
+          .checkOutBtn {
+            background-color: rgb(170, 238, 170);
+          }
+
+          .checkOutBtn:hover {
+            background-color: rgb(105, 189, 105);
+          }
+        }
+      }
+    }
+  }
+}
