@@ -5,6 +5,7 @@ body {
       position: relative;
 
       .miniBasket {
+        display: none !important;
         right: 130px;
         top: 40px;
         position: absolute;
@@ -26,14 +27,90 @@ body {
           max-height: 300px;
           width: 100%;
           overflow-y: auto;
-        }
 
+          .basketItem {
+            display: flex;
+            padding: 20px 0px;
+            border-bottom: 1px solid var(--light-gray);
+
+            .imageContainer {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-right: 10px;
+            }
+
+            article {
+              display: flex;
+              flex-direction: column;
+              gap: 7px;
+
+              h1 {
+                font-weight: normal;
+                color: var(--medium-gray);
+              }
+
+              h3 {
+                font-size: 18px;
+                color: var(--medium-gray);
+              }
+            }
+
+            .countContainer {
+              button {
+                i {
+                  font-size: 18px;
+                  color: var(--light-gray);
+                }
+              }
+
+              input {
+                width: 40px;
+                text-align: center;
+                font-size: 16px;
+              }
+
+              input::-webkit-outer-spin-button,
+              input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+              }
+
+              /* Firefox */
+              input[type="number"] {
+                -moz-appearance: textfield;
+              }
+            }
+
+            .removeItem {
+              width: 50px;
+              background-color: #ff2c2c;
+              border-radius: 3px;
+              height: 30px;
+              font-size: 16px;
+              color: #ffbfbf;
+            }
+          }
+        }
+        .totalContainer {
+          padding: 20px 0;
+          .total {
+            display: flex;
+            justify-content: space-between;
+
+            span {
+              font-size: 20px;
+            }
+          }
+        }
         .buttonContainer {
           padding-top: 10px;
           align-self: self-end;
           width: 100%;
 
           a {
+            display: block;
+            text-align: center;
             width: 100%;
             padding: 10px;
             margin-bottom: 10px;
