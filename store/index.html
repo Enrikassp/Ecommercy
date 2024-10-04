@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/styles/general.css" />
     <link rel="stylesheet" href="/styles/navbar.css" />
     <link rel="stylesheet" href="/styles/miniBasket.css" />
+    <link rel="stylesheet" href="styles/itemListContainer.css" />
     <script
       src="https://kit.fontawesome.com/b14591f08c.js"
       crossorigin="anonymous"
@@ -83,5 +84,196 @@
         </div>
       </nav>
     </header>
+
+    <main>
+      <section id="itemListContainer">
+        <div class="widthContainer">
+          <div class="filterContainer">
+            <div class="productCategories">
+              <h1>Produktų kategorijos</h1>
+
+              <ul>
+                <li>Ausinės<i class="fa-solid fa-arrow-right"></i></li>
+                <li>Pelytės<i class="fa-solid fa-arrow-right"></i></li>
+                <li>Kompiuteriai<i class="fa-solid fa-arrow-right"></i></li>
+              </ul>
+            </div>
+
+            <div class="pricingContainer">
+              <h1>Kaina</h1>
+
+              <div class="priceTextCont">
+                <span>0€</span>
+                <span>500€</span>
+              </div>
+
+              <div class="slider">
+                <div class="progress"></div>
+              </div>
+
+              <div class="range-input">
+                <input
+                  type="range"
+                  class="range-min"
+                  min="0"
+                  max="10000"
+                  value="2500"
+                  step="100"
+                />
+                <input
+                  type="range"
+                  class="range-max"
+                  min="0"
+                  max="10000"
+                  value="7500"
+                  step="100"
+                />
+              </div>
+            </div>
+
+            <div class="productCategories">
+              <h1>Prekės ženklai</h1>
+
+              <ul>
+                <li>Logitech<i class="fa-solid fa-arrow-right"></i></li>
+                <li>Razer<i class="fa-solid fa-arrow-right"></i></li>
+                <li>Corsair<i class="fa-solid fa-arrow-right"></i></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="itemSection">
+            <div class="filterNav">
+              <span>Rodoma 1-12 iš 15 daiktų</span>
+
+              <div class="shortBy">
+                <label for="">
+                  Filtruoti pagal
+                  <select>
+                    <option>Default</option>
+                  </select>
+                </label>
+              </div>
+
+              <div class="showMany">
+                <label for="">
+                  Rodyti
+                  <select>
+                    <option>10</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+
+            <div class="itemList">
+              <div class="item">
+                <div class="imageContainer">
+                  <img src="/assets/images/pelyte.png" />
+                </div>
+
+                <article>
+                  <span
+                    ><i class="fa-solid fa-star"></i>(1000 Atsiliepimų)</span
+                  >
+                  <h1>Logitech pelytė</h1>
+                  <h3>49.99€</h3>
+                </article>
+              </div>
+              <div class="item">
+                <div class="imageContainer">
+                  <img src="/assets/images/pelyte.png" />
+                </div>
+
+                <article>
+                  <span
+                    ><i class="fa-solid fa-star"></i>(1000 Atsiliepimų)</span
+                  >
+                  <h1>Logitech pelytė</h1>
+                  <h3>49.99€</h3>
+                </article>
+              </div>
+              <div class="item">
+                <div class="imageContainer">
+                  <img src="/assets/images/pelyte.png" />
+                </div>
+
+                <article>
+                  <span
+                    ><i class="fa-solid fa-star"></i>(1000 Atsiliepimų)</span
+                  >
+                  <h1>Logitech pelytė</h1>
+                  <h3>49.99€</h3>
+                </article>
+              </div>
+              <div class="item">
+                <div class="imageContainer">
+                  <img src="/assets/images/pelyte.png" />
+                </div>
+
+                <article>
+                  <span
+                    ><i class="fa-solid fa-star"></i>(1000 Atsiliepimų)</span
+                  >
+                  <h1>Logitech pelytė</h1>
+                  <h3>49.99€</h3>
+                </article>
+              </div>
+              <div class="item">
+                <div class="imageContainer">
+                  <img src="/assets/images/pelyte.png" />
+                </div>
+
+                <article>
+                  <span
+                    ><i class="fa-solid fa-star"></i>(1000 Atsiliepimų)</span
+                  >
+                  <h1>Logitech pelytė</h1>
+                  <h3>49.99€</h3>
+                </article>
+              </div>
+              <div class="item">
+                <div class="imageContainer">
+                  <img src="/assets/images/pelyte.png" />
+                </div>
+
+                <article>
+                  <span
+                    ><i class="fa-solid fa-star"></i>(1000 Atsiliepimų)</span
+                  >
+                  <h1>Logitech pelytė</h1>
+                  <h3>49.99€</h3>
+                </article>
+              </div>
+              <div class="item">
+                <div class="imageContainer">
+                  <img src="/assets/images/pelyte.png" />
+                </div>
+
+                <article>
+                  <span
+                    ><i class="fa-solid fa-star"></i>(1000 Atsiliepimų)</span
+                  >
+                  <h1>Logitech pelytė</h1>
+                  <h3>49.99€</h3>
+                </article>
+              </div>
+              <div class="item">
+                <div class="imageContainer">
+                  <img src="/assets/images/pelyte.png" />
+                </div>
+
+                <article>
+                  <span
+                    ><i class="fa-solid fa-star"></i>(1000 Atsiliepimų)</span
+                  >
+                  <h1>Logitech pelytė</h1>
+                  <h3>49.99€</h3>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
