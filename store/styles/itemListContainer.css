@@ -1,6 +1,7 @@
 body {
   main {
     padding-top: 120px;
+    padding-bottom: 10rem;
 
     section#itemListContainer {
       .widthContainer {

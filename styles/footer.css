@@ -1,0 +1,117 @@
+footer {
+  background-color: #141212;
+  padding: 2em 0;
+
+  .widthContainer {
+    display: flex;
+    align-items: center;
+
+    .leftSide {
+      max-width: 80%;
+      border-right: 2px solid #656666;
+      border-top: 2px solid #656666;
+      border-bottom: 2px solid #656666;
+      height: 474px;
+      padding: 2rem 0;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      h1 {
+        font-size: 140px;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 3rem;
+      }
+
+      a {
+        color: var(--dominance-color);
+        font-size: 18px;
+        transition: all 0.2s ease-in-out;
+
+        i {
+          margin-left: 10px;
+        }
+      }
+
+      a:hover {
+        color: var(--dominance2-color);
+      }
+    }
+
+    .rightSide {
+      border-top: 2px solid #656666;
+      border-bottom: 2px solid #656666;
+      height: 474px;
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+      flex-direction: column;
+      min-width: 20%;
+      gap: 40px;
+      padding: 0 2rem;
+
+      .logo {
+        h1 {
+          font-size: 40px;
+          color: #fff;
+        }
+      }
+
+      ul {
+        padding-top: 2rem;
+
+        li {
+          padding: 1rem 0;
+
+          a {
+            color: #b0b0b2;
+            cursor: pointer;
+          }
+
+          a:hover {
+            color: #818181;
+          }
+        }
+      }
+
+      .socialMedias {
+        display: flex;
+        gap: 20px;
+
+        a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #b0b0b2;
+          background-color: rgba(0, 0, 0, 0.3);
+          border: 2px solid #2e2e2e;
+          min-width: 40px;
+          min-height: 40px;
+          border-radius: 100%;
+          transition: all 0.2s ease-in-out;
+
+          i {
+            font-size: 20px;
+          }
+        }
+
+        a:hover {
+          background-color: #2e2e2e;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1600px) {
+  .big-text {
+    font-size: 60px !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .big-text {
+    font-size: 20px !important;
+  }
+}
